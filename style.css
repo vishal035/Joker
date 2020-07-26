@@ -92,6 +92,10 @@ body {
   font-size: 152px;
 }
 
+#main-container main .left-text-hahaha .joker-title-text p {
+  color: #181818;
+}
+
 #main-container main .left-text-hahaha .haha-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -325,17 +329,17 @@ body {
   font-size: 36px;
 }
 
-#main-container footer .social-media-links {
-  display: inline-block;
+#main-container footer {
+  position: absolute;
+  top: 72%;
+  left: 68vw;
 }
 
-#main-container footer .social-media-links .svg-fb {
-  width: 32px;
-  height: 32px;
+#main-container footer .social-media-links .all-svgs {
+  display: inline;
 }
 
-#main-container footer .social-media-links ion-icon {
-  font-size: 32px;
-  color: #0051ff;
+#main-container footer .social-media-links .all-svgs svg {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
