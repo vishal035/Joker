@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'bloodseeker_demoregular';
+  src: url("assets/font/bloodseeker_-_demo-webfont.woff2") format("woff2"), url("assets/font/bloodseeker_-_demo-webfont.woff") format("woff"), url("assets/font/BLOODSEEKER - DEMO.ttf") format("truetype");
+}
+
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -20,7 +25,7 @@ body {
 #main-container header {
   width: 100%;
   height: 50px;
-  background-color: #1f1f11;
+  background-color: #000;
   text-align: center;
 }
 
@@ -74,5 +79,249 @@ body {
   font-size: 22px;
   padding: 10px;
   margin-bottom: 20px;
+}
+
+#main-container main .left-text-hahaha {
+  float: right;
+  color: white;
+  margin-top: -500px;
+  padding-right: 30px;
+}
+
+#main-container main .left-text-hahaha .joker-title-text {
+  font-size: 152px;
+}
+
+#main-container main .left-text-hahaha .haha-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  margin-top: 50px;
+  width: 381px;
+  height: 86px;
+}
+
+#main-container main .left-text-hahaha .haha-text p {
+  position: fixed;
+  font-family: 'bloodseeker_demoregular';
+  font-size: 12px;
+  padding: 1px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t1 {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  letter-spacing: 2px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t2 {
+  letter-spacing: 2px;
+  position: relative;
+  top: 18px;
+  left: 20px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t3 {
+  letter-spacing: 2px;
+  position: relative;
+  top: 16px;
+  left: 20px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t4 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 36px;
+  left: -14px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t5 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 16px;
+  left: -6px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t6 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 18px;
+  left: -8px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t7 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 8px;
+  left: -105px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t8 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 14px;
+  left: -105px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t9 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 8px;
+  left: -110px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t10 {
+  letter-spacing: 6px;
+  position: relative;
+  top: -30px;
+  left: -107px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t11 {
+  letter-spacing: 6px;
+  position: relative;
+  top: -30px;
+  left: -140px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t12 {
+  letter-spacing: 6px;
+  position: relative;
+  top: -10px;
+  left: -140px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t13 {
+  letter-spacing: 6px;
+  position: relative;
+  top: -10px;
+  left: -140px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t14 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 20px;
+  left: -340px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t15 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 40px;
+  left: -340px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t16 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 40px;
+  left: -390px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t17 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 55px;
+  left: -360px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t18 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 20px;
+  left: -345px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t19 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 35px;
+  left: -400px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t20 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 35px;
+  left: -400px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t21 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 24px;
+  left: -420px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t22 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 40px;
+  left: -430px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t23 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 60px;
+  left: -485px;
+}
+
+#main-container main .left-text-hahaha .haha-text .t24 {
+  letter-spacing: 6px;
+  position: relative;
+  top: 40px;
+  left: -455px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-4 {
+  font-size: 4px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-6 {
+  font-size: 6px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-8 {
+  font-size: 8px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-10 {
+  font-size: 10px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-12 {
+  font-size: 12px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-16 {
+  font-size: 16px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-18 {
+  font-size: 18px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-22 {
+  font-size: 22px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-24 {
+  font-size: 22px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-26 {
+  font-size: 22px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-28 {
+  font-size: 28px;
+}
+
+#main-container main .left-text-hahaha .haha-text #font-size-36 {
+  font-size: 36px;
 }
 /*# sourceMappingURL=style.css.map */

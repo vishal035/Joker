@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'bloodseeker_demoregular';
+    src: url('assets/font/bloodseeker_-_demo-webfont.woff2') format('woff2'), url('assets/font/bloodseeker_-_demo-webfont.woff') format('woff'), url('assets/font/BLOODSEEKER - DEMO.ttf') format('truetype');
+    // font-weight: normal;
+    // font-style: normal;
+}
+
+@function randomNum($min,
+$max) {
+    $rand: random();
+    $randomNum: $min + floor($rand *(($max - $min) + 1));
+    @return $randomNum;
+}
+
 $menubar-color: #1f1f11;
 $black: #000;
 $start-color: #868686;
@@ -11,9 +25,6 @@ $start-color: #868686;
     font-family: lato;
 }
 
-html,
-body {}
-
 body {
     background-color: $black;
 }
@@ -24,7 +35,7 @@ body {
     header {
         width: 100%;
         height: 50px;
-        background-color: $menubar-color;
+        background-color: $black;
         text-align: center;
         ul {
             list-style: none;
@@ -68,6 +79,213 @@ body {
                 font-size: 22px;
                 padding: 10px;
                 margin-bottom: 20px;
+            }
+        }
+        .left-text-hahaha {
+            float: right;
+            color: white;
+            margin-top: -500px;
+            padding-right: 30px;
+            .joker-title-text {
+                font-size: 152px;
+            }
+            .haha-text {
+                display: flex;
+                position: absolute;
+                margin-top: 50px;
+                width: 381px;
+                height: 86px;
+                // background-color: rgba(207, 207, 207, 0.349);
+                p {
+                    position: fixed;
+                    font-family: 'bloodseeker_demoregular';
+                    font-size: 12px;
+                    padding: 1px;
+                }
+                // Text Position 
+                .t1 {
+                    position: relative;
+                    top: 30px;
+                    left: 20px;
+                    letter-spacing: 2px;
+                }
+                .t2 {
+                    letter-spacing: 2px;
+                    position: relative;
+                    top: 18px;
+                    left: 20px;
+                }
+                .t3 {
+                    letter-spacing: 2px;
+                    position: relative;
+                    top: 16px;
+                    left: 20px;
+                }
+                .t4 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 36px;
+                    left: -14px;
+                }
+                .t5 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 16px;
+                    left: -6px;
+                }
+                .t6 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 18px;
+                    left: -8px;
+                }
+                .t7 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 8px;
+                    left: -105px;
+                }
+                .t8 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 14px;
+                    left: -105px;
+                }
+                .t9 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 8px;
+                    left: -110px;
+                }
+                .t10 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: -30px;
+                    left: -107px;
+                }
+                .t11 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: -30px;
+                    left: -140px;
+                }
+                .t12 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: -10px;
+                    left: -140px;
+                }
+                .t13 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: -10px;
+                    left: -140px;
+                }
+                .t14 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 20px;
+                    left: -340px;
+                }
+                .t15 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 40px;
+                    left: -340px;
+                }
+                .t16 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 40px;
+                    left: -390px;
+                }
+                .t17 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 55px;
+                    left: -360px;
+                }
+                .t18 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 20px;
+                    left: -345px;
+                }
+                .t19 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 35px;
+                    left: -400px;
+                }
+                .t20 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 35px;
+                    left: -400px;
+                }
+                .t21 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 24px;
+                    left: -420px;
+                }
+                .t22 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 40px;
+                    left: -430px;
+                }
+                .t23 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 60px;
+                    left: -485px;
+                }
+                .t24 {
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 40px;
+                    left: -455px;
+                }
+                // Text Position --END
+                // FontSizes
+                #font-size-4 {
+                    font-size: 4px;
+                }
+                #font-size-6 {
+                    font-size: 6px;
+                }
+                #font-size-8 {
+                    font-size: 8px;
+                }
+                #font-size-10 {
+                    font-size: 10px;
+                }
+                #font-size-12 {
+                    font-size: 12px;
+                }
+                #font-size-16 {
+                    font-size: 16px;
+                }
+                #font-size-18 {
+                    font-size: 18px;
+                }
+                #font-size-22 {
+                    font-size: 22px;
+                }
+                #font-size-24 {
+                    font-size: 22px;
+                }
+                #font-size-26 {
+                    font-size: 22px;
+                }
+                #font-size-28 {
+                    font-size: 28px;
+                }
+                #font-size-36 {
+                    font-size: 36px;
+                }
+                // FontSize --END
             }
         }
     }
