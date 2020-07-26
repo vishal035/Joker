@@ -289,4 +289,17 @@ body {
             }
         }
     }
+    footer {
+        .social-media-links {
+            display: inline-block;
+            .svg-fb {
+                width: 32px;
+                height: 32px;
+            }
+            ion-icon {
+                font-size: 32px;
+                color: #0051ff;
+            }
+        }
+    }
 }

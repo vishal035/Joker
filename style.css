@@ -324,4 +324,18 @@ body {
 #main-container main .left-text-hahaha .haha-text #font-size-36 {
   font-size: 36px;
 }
+
+#main-container footer .social-media-links {
+  display: inline-block;
+}
+
+#main-container footer .social-media-links .svg-fb {
+  width: 32px;
+  height: 32px;
+}
+
+#main-container footer .social-media-links ion-icon {
+  font-size: 32px;
+  color: #0051ff;
+}
 /*# sourceMappingURL=style.css.map */
