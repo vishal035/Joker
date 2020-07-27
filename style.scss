@@ -27,6 +27,7 @@ $start-color: #868686;
 
 body {
     background-color: $black;
+    overflow: hidden;
 }
 
 #main-container {
@@ -54,7 +55,7 @@ body {
         background-image: url(./assets/joker.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-attachment: fixed;
+        // background-attachment: fixed;
         background-position-y: -130px;
         .main-rating-text {
             display: block;
