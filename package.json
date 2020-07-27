@@ -21,6 +21,7 @@
   "homepage": "https://github.com/vishal035/Joker#readme",
   "dependencies": {
     "animate.css": "^4.1.0",
+    "jquery": "^3.5.1",
     "tippy.js": "^6.2.5"
   }
 }
