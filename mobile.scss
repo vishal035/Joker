@@ -8,6 +8,11 @@
 $menubar-color: #181818;
 $black: #000;
 $start-color: #868686;
+html {
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -27,18 +32,17 @@ body {
     width: 100vw;
     height: 100vh;
     main {
-        background-image: url(./assets/joker.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        // background-attachment: fixed;
-        background-position-y: -130px;
         .main-rating-text {
-            display: block;
+            display: flex;
+            flex-direction: column;
             margin-left: 110px;
-            margin-top: 50px;
+            margin-top: 0px;
             p {
                 color: #4f4f4f;
                 font-size: 152px;
+                margin-top: 672px;
+                margin-left: 20%;
+                padding-top: 20px;
                 span {
                     color: #171717;
                     font-size: 72px;
@@ -47,7 +51,7 @@ body {
         }
         .title-text-with-stars {
             display: block;
-            margin-left: 110px;
+            margin-left: 150px;
             width: 300px;
             text-align: center;
             .title-box {
@@ -57,21 +61,26 @@ body {
                 margin-bottom: 20px;
             }
         }
-        .left-text-hahaha {
+        .right-text-hahaha {
             float: right;
             color: white;
             margin-top: -500px;
-            padding-right: 30px;
+            padding-right: 15%;
             .joker-title-text {
-                font-size: 152px;
                 p {
                     color: $menubar-color;
+                    font-size: 152px;
+                    position: relative;
+                    margin-top: -200px;
+                    margin-left: 0%;
+                    z-index: 9999999999;
+                    margin-bottom: -200px;
                 }
             }
             .haha-text {
                 display: flex;
-                position: absolute;
-                margin-top: 50px;
+                position: relative;
+                margin-top: -275px;
                 width: 381px;
                 height: 86px;
                 // background-color: rgba(207, 207, 207, 0.349);
@@ -272,9 +281,10 @@ body {
         // width: 180px;
         // height: 40px;
         // background-color: red;
-        position: absolute;
-        top: 72%;
-        left: 68vw;
+        position: relative;
+        top: -5px;
+        margin-left: -260px;
+        overflow: hidden;
         .social-media-links {
             .all-svgs {
                 display: inline;
