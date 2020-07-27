@@ -23,27 +23,6 @@ body {
   height: 100vh;
 }
 
-#main-container header {
-  width: 100%;
-  height: 50px;
-  background-color: #000;
-  text-align: center;
-}
-
-#main-container header ul {
-  list-style: none;
-  padding-top: 5px;
-  margin: auto 10px;
-}
-
-#main-container header ul li {
-  text-decoration: none;
-  font-size: 28px;
-  color: white;
-  display: inline;
-  padding-right: 20px;
-}
-
 #main-container main {
   background-image: url(./assets/joker.jpg);
   background-repeat: no-repeat;
@@ -340,6 +319,263 @@ body {
 }
 
 #main-container footer .social-media-links .all-svgs svg {
-  margin-right: 10px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 700) {
+  #main-container {
+    width: 100vw;
+    height: 100vh;
+  }
+  #main-container main {
+    background-image: url(./assets/joker.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: cover;
+    background-position-y: none;
+  }
+  #main-container main .main-rating-text {
+    display: block;
+    margin-left: 110px;
+    margin-top: 50px;
+  }
+  #main-container main .main-rating-text p {
+    color: #4f4f4f;
+    font-size: 152px;
+  }
+  #main-container main .main-rating-text p span {
+    color: #171717;
+    font-size: 72px;
+  }
+  #main-container main .title-text-with-stars {
+    display: block;
+    margin-left: 110px;
+    width: 300px;
+    text-align: center;
+  }
+  #main-container main .title-text-with-stars .title-box {
+    color: #4f4f4f;
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  #main-container main .left-text-hahaha {
+    float: right;
+    color: white;
+    margin-top: -500px;
+    padding-right: 30px;
+  }
+  #main-container main .left-text-hahaha .joker-title-text {
+    font-size: 152px;
+  }
+  #main-container main .left-text-hahaha .joker-title-text p {
+    color: #181818;
+  }
+  #main-container main .left-text-hahaha .haha-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    width: 381px;
+    height: 86px;
+  }
+  #main-container main .left-text-hahaha .haha-text p {
+    position: fixed;
+    font-family: 'bloodseeker_demoregular';
+    font-size: 12px;
+    padding: 1px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t1 {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    letter-spacing: 2px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t2 {
+    letter-spacing: 2px;
+    position: relative;
+    top: 18px;
+    left: 20px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t3 {
+    letter-spacing: 2px;
+    position: relative;
+    top: 16px;
+    left: 20px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t4 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 36px;
+    left: -14px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t5 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 16px;
+    left: -6px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t6 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 18px;
+    left: -8px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t7 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 8px;
+    left: -105px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t8 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 14px;
+    left: -105px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t9 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 8px;
+    left: -110px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t10 {
+    letter-spacing: 6px;
+    position: relative;
+    top: -30px;
+    left: -107px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t11 {
+    letter-spacing: 6px;
+    position: relative;
+    top: -30px;
+    left: -140px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t12 {
+    letter-spacing: 6px;
+    position: relative;
+    top: -10px;
+    left: -140px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t13 {
+    letter-spacing: 6px;
+    position: relative;
+    top: -10px;
+    left: -140px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t14 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 20px;
+    left: -340px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t15 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 40px;
+    left: -340px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t16 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 40px;
+    left: -390px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t17 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 55px;
+    left: -360px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t18 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 20px;
+    left: -345px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t19 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 35px;
+    left: -400px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t20 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 35px;
+    left: -400px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t21 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 24px;
+    left: -420px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t22 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 40px;
+    left: -430px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t23 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 60px;
+    left: -485px;
+  }
+  #main-container main .left-text-hahaha .haha-text .t24 {
+    letter-spacing: 6px;
+    position: relative;
+    top: 40px;
+    left: -455px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-4 {
+    font-size: 4px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-6 {
+    font-size: 6px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-8 {
+    font-size: 8px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-10 {
+    font-size: 10px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-12 {
+    font-size: 12px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-16 {
+    font-size: 16px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-18 {
+    font-size: 18px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-22 {
+    font-size: 22px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-24 {
+    font-size: 22px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-26 {
+    font-size: 22px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-28 {
+    font-size: 28px;
+  }
+  #main-container main .left-text-hahaha .haha-text #font-size-36 {
+    font-size: 36px;
+  }
+  #main-container footer {
+    position: absolute;
+    top: 72%;
+    left: 68vw;
+  }
+  #main-container footer .social-media-links .all-svgs {
+    display: inline;
+  }
+  #main-container footer .social-media-links .all-svgs svg {
+    margin-right: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
