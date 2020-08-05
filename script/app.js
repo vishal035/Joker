@@ -1,3 +1,4 @@
+<< << << < HEAD
 // const bootbox = require('./bootbox.min');
 // var width = window.innerWidth || document.documentElement.clientWidth ||
 //     document.body.clientWidth;
