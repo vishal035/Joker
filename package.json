@@ -4,7 +4,7 @@
   "description": "A website for Joker Movie",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass style.scss style.css "
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
     "animate.css": "^4.1.0",
     "jquery": "^3.5.1",
     "tippy.js": "^6.2.5"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
   }
 }

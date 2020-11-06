@@ -8,6 +8,7 @@
 $menubar-color: #181818;
 $black: #000;
 $start-color: #868686;
+
 * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -16,6 +17,10 @@ $start-color: #868686;
     margin: 0;
     padding: 0;
     font-family: lato;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body {
@@ -26,30 +31,36 @@ body {
 #main-container {
     width: 100vw;
     height: 100vh;
+
     main {
         background-image: url(./assets/joker.jpg);
         background-repeat: no-repeat;
         background-position: center;
         // background-attachment: fixed;
         background-position-y: -130px;
+
         .main-rating-text {
             display: block;
             margin-left: 110px;
             margin-top: 50px;
+
             p {
                 color: #4f4f4f;
                 font-size: 152px;
+
                 span {
                     color: #171717;
                     font-size: 72px;
                 }
             }
         }
+
         .title-text-with-stars {
             display: block;
             margin-left: 110px;
             width: 300px;
             text-align: center;
+
             .title-box {
                 color: #4f4f4f;
                 font-size: 22px;
@@ -57,23 +68,28 @@ body {
                 margin-bottom: 20px;
             }
         }
+
         .right-text-hahaha {
             float: right;
             color: white;
             margin-top: -500px;
             padding-right: 30px;
+
             .joker-title-text {
                 font-size: 152px;
+
                 p {
                     color: $menubar-color;
                 }
             }
+
             .haha-text {
                 display: flex;
                 position: absolute;
                 margin-top: 50px;
                 width: 381px;
                 height: 86px;
+
                 // background-color: rgba(207, 207, 207, 0.349);
                 p {
                     position: fixed;
@@ -81,6 +97,7 @@ body {
                     font-size: 12px;
                     padding: 1px;
                 }
+
                 // Text Position 
                 .t1 {
                     position: relative;
@@ -88,186 +105,223 @@ body {
                     left: 20px;
                     letter-spacing: 2px;
                 }
+
                 .t2 {
                     letter-spacing: 2px;
                     position: relative;
                     top: 18px;
                     left: 20px;
                 }
+
                 .t3 {
                     letter-spacing: 2px;
                     position: relative;
                     top: 16px;
                     left: 20px;
                 }
+
                 .t4 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 36px;
                     left: -14px;
                 }
+
                 .t5 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 16px;
                     left: -6px;
                 }
+
                 .t6 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 18px;
                     left: -8px;
                 }
+
                 .t7 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 8px;
                     left: -105px;
                 }
+
                 .t8 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 14px;
                     left: -105px;
                 }
+
                 .t9 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 8px;
                     left: -110px;
                 }
+
                 .t10 {
                     letter-spacing: 6px;
                     position: relative;
                     top: -30px;
                     left: -107px;
                 }
+
                 .t11 {
                     letter-spacing: 6px;
                     position: relative;
                     top: -30px;
                     left: -140px;
                 }
+
                 .t12 {
                     letter-spacing: 6px;
                     position: relative;
                     top: -10px;
                     left: -140px;
                 }
+
                 .t13 {
                     letter-spacing: 6px;
                     position: relative;
                     top: -10px;
                     left: -140px;
                 }
+
                 .t14 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 20px;
                     left: -340px;
                 }
+
                 .t15 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 40px;
                     left: -340px;
                 }
+
                 .t16 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 40px;
                     left: -390px;
                 }
+
                 .t17 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 55px;
                     left: -360px;
                 }
+
                 .t18 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 20px;
                     left: -345px;
                 }
+
                 .t19 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 35px;
                     left: -400px;
                 }
+
                 .t20 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 35px;
                     left: -400px;
                 }
+
                 .t21 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 24px;
                     left: -420px;
                 }
+
                 .t22 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 40px;
                     left: -430px;
                 }
+
                 .t23 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 60px;
                     left: -485px;
                 }
+
                 .t24 {
                     letter-spacing: 6px;
                     position: relative;
                     top: 40px;
                     left: -455px;
                 }
+
                 // Text Position --END
                 // FontSizes
                 #font-size-4 {
                     font-size: 4px;
                 }
+
                 #font-size-6 {
                     font-size: 6px;
                 }
+
                 #font-size-8 {
                     font-size: 8px;
                 }
+
                 #font-size-10 {
                     font-size: 10px;
                 }
+
                 #font-size-12 {
                     font-size: 12px;
                 }
+
                 #font-size-16 {
                     font-size: 16px;
                 }
+
                 #font-size-18 {
                     font-size: 18px;
                 }
+
                 #font-size-22 {
                     font-size: 22px;
                 }
+
                 #font-size-24 {
                     font-size: 22px;
                 }
+
                 #font-size-26 {
                     font-size: 22px;
                 }
+
                 #font-size-28 {
                     font-size: 28px;
                 }
+
                 #font-size-36 {
                     font-size: 36px;
                 }
+
                 // FontSize --END
             }
         }
     }
+
     footer {
         // width: 180px;
         // height: 40px;
@@ -275,9 +329,11 @@ body {
         position: absolute;
         top: 72%;
         left: 68vw;
+
         .social-media-links {
             .all-svgs {
                 display: inline;
+
                 svg {
                     margin-right: 20px;
                 }
