@@ -1,5 +1,5 @@
 # Joker
 
-----
+---
 
-# Fork and Support..
+# Revamp is on the way
